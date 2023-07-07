@@ -156,3 +156,22 @@ nav a {
   display: flex;
   gap: 25px;
 }
+.resume-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-institution {
+  color: #757575;
+  font-size: 20px;
+}
+.download-cv {
+  text-align: center;
+  margin: 0 auto;
+}
