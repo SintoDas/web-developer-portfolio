@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e7617b7805.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
@@ -31,8 +35,12 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download cv</button>
-          <button class="btn-primary">Contact</button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-download"></i>Download cv
+          </button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-phone"></i>Contact
+          </button>
         </div>
         <img class="profile" src="images/hardy.png" alt="profile Image" />
       </div>
@@ -130,24 +138,25 @@
                 any of the 1500+ FontAwesome 5 free icons available. Aenean
                 commodo ligula eget dolor.
               </p>
-              <hr class ="resume-container"/>
+              <hr class="resume-hr" />
             </div>
             <div class="resume-item">
               <h3 class="resume-item-title">Master in Computer Engineering</h3>
               <h4 class="resume-institution">
                 Harvard University / 2015 - 2017
+              </h4>
               <p class="resume-description">
                 List skill/technologies here. You can change the icon above to
                 any of the 1500+ FontAwesome 5 free icons available. Aenean
                 commodo ligula eget dolor.
               </p>
-              <hr class ="resume-container"/>
+              <hr class="resume-hr" />
             </div>
             <div class="resume-item">
               <h3 class="resume-item-title">Master in Computer Engineering</h3>
               <h4 class="resume-institution">
                 Harvard University / 2015 - 2017
-              </h4 class ="resume-container">
+              </h4>
               <p class="resume-description">
                 List skill/technologies here. You can change the icon above to
                 any of the 1500+ FontAwesome 5 free icons available. Aenean
@@ -160,33 +169,27 @@
               <h3 class="resume-title">My Experience</h3>
               <div class="resume-item">
                 <h3 class="resume-item-title">Sr. Font End Developer</h3>
-                <h4 class="resume-institution">
-                  Apple Inc / 2020 - Current
-                </h4>
+                <h4 class="resume-institution">Apple Inc / 2020 - Current</h4>
                 <p class="resume-description">
                   List skill/technologies here. You can change the icon above to
                   any of the 1500+ FontAwesome 5 free icons available. Aenean
                   commodo ligula eget dolor.
                 </p>
-                <hr class ="resume-container"/>
+                <hr class="resume-hr" />
               </div>
               <div class="resume-item">
                 <h3 class="resume-item-title">Jr. Font End Developer</h3>
-                <h4 class="resume-institution">
-                  Dribble Inc / 2018 - 2022
-                </h4>
+                <h4 class="resume-institution">Dribble Inc / 2018 - 2022</h4>
                 <p class="resume-description">
                   List skill/technologies here. You can change the icon above to
                   any of the 1500+ FontAwesome 5 free icons available. Aenean
                   commodo ligula eget dolor.
                 </p>
-                <hr/>
+                <hr class="resume-hr" />
               </div>
               <div class="resume-item">
                 <h3 class="resume-item-title">HTML Developer</h3>
-                <h4 class="resume-institution">
-                  Adobe Inc / 2017 - 2018
-                </h4>
+                <h4 class="resume-institution">Adobe Inc / 2017 - 2018</h4>
                 <p class="resume-description">
                   List skill/technologies here. You can change the icon above to
                   any of the 1500+ FontAwesome 5 free icons available. Aenean
@@ -194,13 +197,52 @@
                 </p>
               </div>
             </div>
-        </div>
+          </div>
         </div>
         <div class="download-cv">
-          <button class ="btn-primary download-cv">Download</button>
+          <button class="btn-primary download-cv">
+            <i class="fa-solid fa-download"></i>Download
+          </button>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-column">
+        <h3 class="footer-title">Lets Connect</h3>
+        <p class="footer-description">
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+        </p>
+        <a class="social-link" href=""
+          ><img src="images/icons/facebook.png" alt=""
+        /></a>
+        <a class="social-link" href=""
+          ><img src="images/icons/insta.png" alt=""
+        /></a>
+        <a class="social-link" href="">
+          <img src="images/icons/twitter.png" alt=""
+        /></a>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Let’s Message me</h3>
+        <form action="" class="contact">
+          <input type="text" placeholder="Enter Your Name" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" class="btn-primary" value="Submit" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
