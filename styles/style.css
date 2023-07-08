@@ -160,6 +160,7 @@ nav a {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 .resume-item-title {
   color: #474747;
@@ -172,7 +173,7 @@ nav a {
 }
 .download-cv {
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 50px;
 }
 footer {
   display: flex;
